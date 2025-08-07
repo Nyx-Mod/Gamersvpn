@@ -1,1 +1,10 @@
-invoke-static {p0}, Lcom/on/Securityon;->s(Landroid/content/Context;)V
+  {
+  "credit": "NYX_MOD",
+  "show_dialog": false,
+  "title": "🌟 Update Available",
+  "subtitle": "< New Version Release >",
+  "whatsnew": "• Improved app performance\n• Fixed major bugs\n• Enhanced security layers\n• Polished UI with smooth animations ",
+  "btn_update": "Update Now",
+  "btn_exit": "Exit",
+  "link": "https://t.me/nyx_mod"
+}
