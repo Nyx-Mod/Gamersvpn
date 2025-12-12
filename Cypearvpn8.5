@@ -1,39 +1,13 @@
-#!/usr/bin/env python3
-# Telegram Account Link Bot
-# Python Implementation - Enhanced with Admin User Info Button (Corrected)
-
-import requests
-import json
-import time
-import uuid
-from datetime import datetime, timedelta
-import threading
-
-# Configuration
-BOT_TOKEN = "7925127595:AAGQReL1FBeqsKNvMtxSkOsJsWllvXL_x2I"
-ADMIN_USER_ID = 1690187708
-API_BASE = f"https://api.telegram.org/bot{BOT_TOKEN}"
-CHANNEL_USERNAME = "@nyxmod"  # Channel for membership verification
-
-# Global variables to store bot state
-bot_state = {}
-account_links = {}
-link_access = {}
-pending_access = {}  # Store users waiting to access accounts after joining channel
-user_access_history = {}  # Track user access times for rate limiting
-banned_users = {}  # Changed from set to dict to store ban dates
-unbanned_users = {}  # Store unbanned users with dates
-link_user_details = {}  # Structure: {link_id: {'users': [user_data], 'feedback': [feedback_data]}}
-user_reaction_state = {}  # Structure: {user_id: {'link_id': str, 'start_time': datetime}}
-active_monitors = {}  # Store active monitoring threads
-
-def send_telegram_request(method, parameters=None):
-    """Send HTTP request to Telegram API"""
-    if parameters is None:
-        parameters = {}
-    
-    try:
-        url = f"{API_BASE}/{method}"
+{
+  "credit": "NYXMOD",
+  "show_dialog": false,
+  "title": "📣 𝐔𝐩𝐝𝐚𝐭𝐞 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 ⎙",
+  "subtitle": "☆ N̴e̴w̴ ̴V̴e̴r̴s̴i̴o̴n̴ ̴R̴e̴l̴e̴a̴s̴e̴ ☆",
+  "whatsnew": "• Improved app performance\n• Fixed major bugs\n• Enhanced security layers\n• Polished UI with smooth animations ",
+  "btn_update": "Update Now",
+  "btn_exit": "Exit",
+  "link": "https://t.me/+lLwkaKnr78hjMGE0"
+}
         headers = {'Content-Type': 'application/json'}
         response = requests.post(url, data=json.dumps(parameters), headers=headers)
         result = response.json()
