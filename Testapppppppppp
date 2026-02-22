@@ -1,7 +1,7 @@
 {
     "credit": "NYXMOD",
     "show_dialog": true,
-    "show_cancel": false,
+    "show_cancel": true,
     "title": "Update Available 🎁",
     "subtitle": "🔒 Release 🔍",
     "whatsnew": "• Improved app performance\n• Fixed major bugs\n• Enhanced security layers\n• Polished UI with smooth animations",
