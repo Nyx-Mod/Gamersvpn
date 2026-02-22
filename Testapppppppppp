@@ -6,8 +6,5 @@
   "whatsnew": "• Improved app performance\n• Fixed major bugs\n• Enhanced security layers\n• Polished UI with smooth animations",
   "btn_update": "Update Now",
   "btn_exit": "Exit",
-  "btn_cancel": "Cancel",       // ← این اختیاری است (اگر نباشد پیش‌فرض "Cancel" می‌ماند)
-  "show_cancel": true,          // ← حتماً true بگذار تا دکمه ظاهر شود
-  "enable_cancel": true,        // ← این را هم اضافه کن (اگر false باشد دکمه خاکستری می‌شود)
   "link": "https://t.me/secretapkz"
 }
