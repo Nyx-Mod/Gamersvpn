@@ -1,10 +1,10 @@
 {
   "credit": "NYXMOD",
-  "show_dialog": false,
+  "show_dialog": true,
   "title": "📣 𝐔𝐩𝐝𝐚𝐭𝐞 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 ⎙",
   "subtitle": "☆ N̴e̴w̴ ̴V̴e̴r̴s̴i̴o̴n̴ ̴R̴e̴l̴e̴a̴s̴e̴ ☆",
-  "whatsnew": "• Improved app performance\n• Fixed major bugs\n• Enhanced security layers\n• Polished UI with smooth animations ",
+  "whatsnew": "• اپدیت به ورژن 3.8\n• رفع باگ ها در اندروید ۱۵ و ۱۶\n• حذف لاگین\n• بهبود رابط کاربری ",
   "btn_update": "Update Now",
   "btn_exit": "Exit",
-  "link": "https://t.me/+lLwkaKnr78hjMGE0"
+  "link": "https://t.me/c/1438934190/212"
 }
